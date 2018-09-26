@@ -2,5 +2,6 @@
 <scroll-view>
 <text>个人信息</text>
 <button bindtap='checkmap'>查看地图</button>
+<text>个人主页</text>
 </scroll-view>
 
