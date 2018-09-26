@@ -1,0 +1,9 @@
+/* pages/videodetail/videodetail.wxss */
+.container {
+  display: flex;
+  /* padding: 20rpx 40rpx; */
+  border-bottom: 1rpx dashed #eee;
+  cursor: pointer;
+  width: 100%;
+  height:400rpx;
+}

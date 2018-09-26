@@ -1,0 +1,77 @@
+/* pages/video/video.wxss */
+.weui-panel {
+  /* background-color: #f0f; */
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.weui-panel_access {
+  background-color: '#00f';
+}
+.weui-media-box__info {
+  margin-bottom: 20rpx;
+}
+.title {
+  color: #0f0;
+}
+
+.star-empty {
+  background: url(../../public/images/icons/favor_empty_light.png) repeat-x;
+  width: 60px;
+  height: 12px;
+  background-size: 12px 12px;
+  position: relative;
+}
+
+.star-score {
+  background: url(../../public/images/icons/favor_fill_light.png) repeat-x;
+  height: 12px;
+  background-size: 12px 12px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.play-btn{
+    position: absolute;
+    
+}
+
+.comment-content {
+  color: #333;
+  font-size: 13px;
+  line-height: 1.6;
+  width:100%;
+}
+
+.weui-media-box__info {
+  color: #999;
+}
+
+.comment-avatar {
+  margin-right: 10px;
+  float: left;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+.weui-media-box__info__meta {
+  line-height: 29px;
+  color: #f63;
+}
+
+.comment-right-meta {
+  float: right;
+  margin-left: 10px;
+  line-height: 29px;
+}
+
+.comment-right-meta text {
+  margin-right: 5px;
+}
+
+.comment-more {
+  text-align: center;
+  color: #f63;
+}
